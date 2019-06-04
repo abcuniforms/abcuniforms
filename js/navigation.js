@@ -11,7 +11,6 @@ navBtn.addEventListener('click',_=>{
 navBtn.addEventListener('click', _=> {
  /* Detect the button class name */
  var navOpen = nav.classList.contains('nav_open');
- console.log(navOpen);
  
  /* Toggle the aria-hidden state on the overlay and the 
     no-scroll class on the body */
