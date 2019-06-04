@@ -4,7 +4,7 @@
   justify-content: space-between;
   position: fixed;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background-color: rgba($black,.9);
   transform: translateY(calc(28px - 100vh + 2em));
   transition: all ease-in-out 250ms;
