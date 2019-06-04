@@ -1,3 +1,5 @@
+.noscroll { overflow: hidden; }
+
 .nav{
   display: flex;
   flex-direction: column;
@@ -8,6 +10,7 @@
   background-color: rgba($black,.9);
   transform: translateY(calc(28px - 100% + 2em));
   transition: all ease-in-out 250ms;
+  overflow: hidden;
   .nav-list{
     display: flex;
     text-align: center;
