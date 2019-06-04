@@ -6,7 +6,7 @@
   width: 100vw;
   height: 100%;
   background-color: rgba($black,.9);
-  transform: translateY(calc(28px - 100vh + 2em));
+  transform: translateY(calc(28px - 100% + 2em));
   transition: all ease-in-out 250ms;
   .nav-list{
     display: flex;
