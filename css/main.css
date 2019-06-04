@@ -625,7 +625,8 @@ template {
     .sec-contactus .social-container .text_gm,
     .sec-contactus .social-container .text_fb {
       text-align: left;
-      margin: auto 0; }
+      margin: auto 0;
+      padding: .5em 0em; }
       .sec-contactus .social-container .text_wa a,
       .sec-contactus .social-container .text_gm a,
       .sec-contactus .social-container .text_fb a {
