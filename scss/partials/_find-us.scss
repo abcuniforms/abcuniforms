@@ -1,0 +1,37 @@
+.sec-findus{
+  text-align: center;
+  h1{
+    @include sans-serif($fs:2.8rem,$ls:.8rem);
+    margin: .9em auto .7em;
+    padding-left: .29em;
+  }
+  .saperator{
+    display: block;
+    margin: auto ;
+    margin-bottom: 1.7em;
+    height: 1px;
+    width: 40vw;
+    background-color: $gray;
+  }
+  p:first-of-type{
+    margin: auto;
+    margin-bottom: .4em;
+  }
+  p{
+    width: 80vw;
+    margin: auto auto 4em;
+    @include serif($fs:.85rem,$ls:.25rem,$lh:1.2);
+  }
+  .map{
+    width: 85vw;
+    height: 55vw;
+    margin: auto;
+    margin-bottom: 4em; 
+    background-color: rgba(green,0.6);
+    iframe{
+      border: 0;
+      width: 85vw;
+      height: 55vw;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.sec-footer{
+  padding: 1em;
+  padding-top: 2em;
+  background-color: $black;
+  h6{
+    margin: 0;
+    text-align: center;
+    @include sans-serif($fs: 1rem, $ls: 0.2rem);
+    color: $white;
+  }
+}

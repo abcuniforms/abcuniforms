@@ -1,0 +1,130 @@
+.sec-contactus {
+  text-align: center;
+  background: $black;
+  color: $gray;
+  padding: 0 0 4em 0;
+  h1 {
+    @include cursive($fs: 2rem, $ls: 0.1rem);
+    padding: 1em 0 0.6em 0;
+  }
+  h2 {
+    @include sans-serif($fs: 1rem, $ls: 0.2rem);
+    color: $gray;
+  }
+  h2:first-of-type {
+    padding-top: 0;
+    padding-bottom: 1.4em;
+  }
+  h3 {
+    display: none;
+    @include sans-serif($fs: 1rem, $ls: 0.2rem);
+    color: rgba(214, 30, 30,.9);
+    padding-top: 1.2em;
+  }
+  .form-container {
+    width: 80vw;
+    margin: auto;
+    border-radius: 1em;
+    overflow: hidden;
+    form {
+      display: flex;
+      flex-direction: column;
+      .name,
+      .email,
+      .message {
+        @include sans-serif($fs: 1.2rem, $ls: 0.2rem);
+        width: auto;
+        color: $gray;
+        padding: 0.5em 0.7em 0.5em 0.7em;
+        border: none;
+        border-bottom: 1px solid $black;
+        outline: 0;
+        transition: all 150ms ease-in;
+      }
+      .message{
+        border: none;
+        width: calc(100% - 1.4em);
+        margin-bottom: -5px;
+      }
+      .name:focus,
+      .email:focus,
+      .message:focus {
+        color: $black;
+      }
+      .send {
+        @include sans-serif($fs: 1.4rem, $ls: 0.4rem);
+        border: none;
+        padding: 0.5em;
+        background-color: $white;
+        transition: all ease-in-out 250ms;
+      }
+      .send:hover,
+      .send:active,
+      .send:focus {
+        letter-spacing: 0.6rem;
+        background-color: rgb(72, 151, 72);
+      }
+    }
+  }
+  .thank-you{
+    display: none;
+    background-color: rgb(72, 151, 72);
+    span{
+      font-size: 1rem;
+    }
+  }
+  .social-container {
+    display: grid;
+    width: 85vw;
+    margin: 0 auto;
+    grid-template-areas:
+      "iwa twa"
+      "igm tgm"
+      "ifb tfb";
+      grid-gap: .3em;
+    .icon_wa,
+    .icon_gm,
+    .icon_fb {
+      width: 40px;
+      height: 40px;
+      padding: 5px;
+      img{
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+    .icon_wa {
+      grid-area: iwa;
+    }
+    .icon_gm {
+      grid-area: igm;
+    }
+    .icon_fb {
+      grid-area: ifb;
+    }
+    .text_wa,
+    .text_gm,
+    .text_fb {
+      text-align: left;
+      margin: auto 0;
+      a {
+        transition: all ease-in-out 250ms;
+        text-decoration: none;
+        @include serif($fs: 0.85rem, $ls: 0.01rem, $lh: 1.2);
+      }
+      a:hover,a:active,a:focus{
+        color: $white;
+        font-size: .87em;
+      }
+    }
+    .text_wa{
+      grid-template-areas: twa;
+    }
+    .text_gm{
+      grid-template-areas: tgm;
+    }
+    .text_fb{
+      grid-template-areas: tfb;
+    }
+  }
+}

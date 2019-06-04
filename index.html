@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#000103">
+  <link rel="stylesheet" type="text/css" href="/css/main.css">
+  <title>ABC Uniforms</title>
+
+  <!-- PRE DOM SCRIPTS -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-141408876-1"></script>
+  <script>
+    console.log('GAnalytics Script Fired Up!');
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-141408876-1');
+  </script>
+  
+</head>
+
+<body>
+
+  <div class="nav">
+    <div class="nav-list">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Our Products</a></li>
+        <li><a href="#">Find Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="nav-btn" id="nav-btn">
+      <svg viewBox="0 0 40 28">
+        <use href="#nav-btn-svg">
+      </svg>
+    </div>
+  </div>
+
+  <section class="sec-logo">
+    <div class="logo-bg">
+      <img src="/img/logo/ABClogoWhite.png" alt="ABC Logo" class="logo">
+    </div>
+  </section>
+
+  <section class="sec-aboutus">
+    <h1>ABOUT US</h1>
+    <div class="saperator"></div>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi distinctio aliquid nemo ratione eum molestias
+      enim, impedit, exercitationem quam architecto, eligendi temporibus deserunt expedita alias ea obcaecati eaque unde
+      facilis.</p>
+  </section>
+
+  <section class="sec-ourproducts">
+    <h1>Our Products</h1>
+    <div class="products-container">
+      <div class="product_one">
+        <img src="/img/product.jpeg" alt="Product">
+      </div>
+      <p class="text_one">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi distinctio aliquid nemo
+        ratione eum molestias enim,</p>
+      <div class="product_two">
+        <img src="/img/product.jpeg" alt="Product">
+      </div>
+      <p class="text_two">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi distinctio aliquid nemo
+        ratione eum molestias enim,</p>
+      <p class="text_three">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi distinctio aliquid nemo
+        ratione eum molestias</p>
+    </div>
+    <a href="#" class="btn_ratelist">RATELIST</a>
+  </section>
+
+  <section class="sec-findus">
+    <h1>FIND US</h1>
+    <div class="saperator"></div>
+    <p>Address:</p>
+    <p>
+      IX/6493, Nehru Gali, Gandhi Nagar, Delhi, 110031</p>
+    <!-- MAP HERE   -->
+    <div id="map" class="map"><iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14003.52800694051!2d77.2647526!3d28.6632516!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xccd6bf895ff2bb55!2sA+B+C+School+Uniform!5e0!3m2!1sen!2sin!4v1559643182273!5m2!1sen!2sin"
+        allowfullscreen></iframe></div>
+  </section>
+
+  <section class="sec-contactus">
+    <h1>Contact Us</h1>
+    <h2>LEAVE A MESSAGE</h2>
+    <h3 id="email-invalid">EMAIL INVALID</h3>
+    <div class="form-container">
+      <form id="gform" action="https://script.google.com/macros/s/AKfycbzJ0mBzpfkel67WzSoWwYxY3WcCIBLIodfVeV181w/exec"
+        method="post">
+        <input class="name" type="text" name="Name" id="NAME" placeholder="NAME">
+        <input type="text" class="email" name="Email" id="EMAIL" placeholder="EMAIL">
+        <div class="textarea-container">
+          <textarea class="message" name="Message" id="MESSAGE" rows="8" placeholder="MESSAGE"></textarea>
+        </div>
+        <input class="send" type="submit" value="SEND">
+      </form>
+    </div>
+    <div class="thank-you">
+      <h1>Thank You!<br><span>for leaving a message</span></h1>
+    </div>
+    <h2>OTHER METHODS</h2>
+    <div class="social-container">
+      <div class="icon_wa">
+        <img src="/img/social/WAicon.png" alt="WA Icon">
+      </div>
+      <div class="text_wa">
+        <a href="tel:+919810767650">+91-9810767650</a>
+      </div>
+      <div class="icon_gm">
+        <img src="/img/social/GMicon.png" alt="WA Icon">
+      </div>
+      <div class="text_gm">
+        <a href="mailto:abcuniformsdelhi@gmail.com">abcuniformsdelhi@gmail.com</a>
+      </div>
+      <div class="icon_fb">
+        <img src="/img/social/FBicon.png" alt="WA Icon">
+      </div>
+      <div class="text_fb">
+        <a href="https://www.facebook.com/abcuniforms.gandhinagar">www.fb.com/abcuniforms.gandhinagar</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec-footer">
+    <h6> © abcuniforms 2019</h6>
+  </section>
+
+  <!-- IMPORTED SVGS -->
+  <svg style="display: none;">
+    <symbol id="nav-btn-svg">
+      <g id="lines" transform="translate(-77.5 -14.5)">
+        <line id="line1" x2="40" transform="translate(77.5 16.5)" fill="none" stroke="#fff" stroke-width="4" />
+        <line id="line2" x2="40" transform="translate(77.5 28.5)" fill="none" stroke="#fff" stroke-width="4" />
+        <line id="line3" x2="40" transform="translate(77.5 40.5)" fill="none" stroke="#fff" stroke-width="4" />
+      </g>
+    </symbol>
+  </svg>
+
+  <!-- POST DOM SCRIPTS -->
+  <script src="/js/navigation.js"></script>
+  <script src="/js/form.js"></script>
+
+</body>
+
+</html>

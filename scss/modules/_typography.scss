@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,900|Six+Caps');
+
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+$ff-s: 'Merriweather', serif;
+$ff-ss: 'Six Caps', sans-serif;
+$ff-cursive: 'Pacifico', cursive;
+
+$fw-n: 400;
+$fw-b: 900;
+
+@mixin serif($fs, $ls: .15em, $color: $gray, $fw: $fw-n, $lh: 1) {
+  font-size: $fs;
+  letter-spacing: $ls;
+  color: $color;
+  line-height: $lh;
+  font-family: $ff-s;
+  font-weight: $fw;
+}
+
+@mixin sans-serif($fs, $ls: .15em, $color: $black, $tt: uppercase, $lh: 1) {
+  font-size: $fs;
+  letter-spacing: $ls;
+  color: $color;
+  text-transform: $tt;
+  line-height: $lh;
+  font-family: $ff-ss;
+  font-weight: $fw-n;
+}
+
+@mixin cursive($fs, $ls: .15em, $color: $white, $fw: $fw-n, $lh: 1) {
+  font-size: $fs;
+  letter-spacing: $ls;
+  color: $color;
+  line-height: $lh;
+  font-family: $ff-cursive;
+  font-weight: $fw;
+}

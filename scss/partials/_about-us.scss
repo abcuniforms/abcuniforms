@@ -1,0 +1,21 @@
+.sec-aboutus{
+  text-align: center;
+  h1{
+    @include sans-serif($fs:2.8rem,$ls:.8rem);
+    margin: .9em auto .7em;
+    padding-left: .29em;
+  }
+  .saperator{
+    display: block;
+    margin: auto ;
+    margin-bottom: 1.7em;
+    height: 1px;
+    width: 40vw;
+    background-color: $gray;
+  }
+  p{
+    width: 80vw;
+    margin: auto auto 4em;
+    @include serif($fs:1.2rem,$ls:.3rem);
+  }
+}

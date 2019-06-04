@@ -1,0 +1,17 @@
+{
+  "name": "abcuniforms.github.io",
+  "version": "1.0.0",
+  "description": "Official Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "author": "Tanishq Manuja",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}

@@ -1,0 +1,17 @@
+.sec-logo{
+  .logo-bg{
+    background-color: lighten($black-dull,20);
+    background-image: url(/img/logo/logobg.jpg);
+    background-size: cover;
+    background-blend-mode: multiply;
+    width: 100vw;
+    padding-top: 5em;
+    padding-bottom: 2em;
+  }
+  .logo{
+    display: block;
+    margin: auto;
+    width: 80vw;
+  }
+  
+}

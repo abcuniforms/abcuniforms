@@ -1,0 +1,67 @@
+.sec-ourproducts{
+  text-align: center;
+  background: $black;
+  color: $gray;
+  padding: 0 0 4em 0;
+  h1{
+    @include cursive($fs:2rem, $ls:.1rem);
+    padding: 1em 0 .6em 0;
+  }
+  .products-container{
+    display: grid;
+    width: 85vw;
+    margin: 0 auto;
+    grid-template-rows: [pd1-start] 1fr [pd1-end pd2-start] 1fr [pd2-end t3-start] 1fr [t3-end];
+    grid-template-columns: [pd1-start t2-start t3-start] 1fr [pd1-end t1-start] 1fr [pd2-start t2-end] 1fr [t1-end pd2-end t3-end];
+    grid-gap: 1.5em;
+    @include serif($fs: 0.85rem, $ls:.2rem ,$lh:1.2);
+    padding-bottom: 2em;
+    
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+
+    .product_one{
+      grid-row: pd1;
+      grid-column: pd1;
+      border: 1px solid $white;
+    }
+    .text_one{
+      margin-top: 0;
+      text-align: right;
+      grid-row: pd1;
+      grid-column: t1;
+    }
+    .product_two{
+      grid-row: pd2;
+      grid-column: pd2;
+      border: 1px solid $white;
+    }
+    .text_two{
+      margin-bottom: 0;
+      text-align: left;
+      grid-row: pd2;
+      grid-column: t2;
+    }
+    .text_three{
+      grid-row: t3;
+      grid-column: t3;
+    }
+  }
+  .btn_ratelist{
+    @include serif($fs: 0.85rem, $ls:.4rem);
+    color: $gray;
+    text-decoration: none;
+    border: 2px solid $gray;
+    padding: 0.8em;
+    border-radius: 2em;
+    transition: all ease-in-out 200ms;
+  }
+  .btn_ratelist:hover,.btn_ratelist:focus{
+    color: $white;
+    border-color: $white;
+    padding: 1.2em;
+  }
+}
