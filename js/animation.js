@@ -10,7 +10,7 @@ logoTL
 const scene = new ScrollMagic.Scene({
   triggerElement: ".sec-logo",
   triggerHook: "onLeave",
-  duration: "10%"
+  duration: "25%"
 })
   //.setPin(".sec-logo")
   .setTween(logoTL)
