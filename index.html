@@ -20,6 +20,8 @@
 
     gtag('config', 'UA-141408876-1');
   </script>
+  <!-- GSAP ROBUST -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
 
 </head>
 
@@ -36,7 +38,7 @@
       </ul>
     </div>
     <div class="nav-btn" id="nav-btn">
-      <svg viewBox="0 0 40 28">
+      <svg viewBox="0 0 40 40">
         <use href="#nav-btn-svg">
       </svg>
     </div>
@@ -135,10 +137,10 @@
   <!-- IMPORTED SVGS -->
   <svg style="display: none;">
     <symbol id="nav-btn-svg">
-      <g id="lines" transform="translate(-77.5 -14.5)">
-        <line id="line1" x2="40" transform="translate(77.5 16.5)" fill="none" stroke="#fff" stroke-width="4" />
-        <line id="line2" x2="40" transform="translate(77.5 28.5)" fill="none" stroke="#fff" stroke-width="4" />
-        <line id="line3" x2="40" transform="translate(77.5 40.5)" fill="none" stroke="#fff" stroke-width="4" />
+      <g id="lines">
+        <line id="line1" x2="40" transform="translate(0 2.5)" fill="none" stroke="#fff" stroke-width="4" />
+        <line id="line2" x2="40" transform="translate(0 14.5)" fill="none" stroke="#fff" stroke-width="4" />
+        <line id="line3" x2="40" transform="translate(0 26.5)" fill="none" stroke="#fff" stroke-width="4" />
       </g>
     </symbol>
   </svg>
@@ -146,6 +148,7 @@
   <!-- POST DOM SCRIPTS -->
   <script src="/js/navigation.js"></script>
   <script src="/js/form.js"></script>
+  <script src="/js/animation.js"></script>
 
 </body>
 

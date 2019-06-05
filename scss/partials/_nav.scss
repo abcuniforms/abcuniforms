@@ -8,7 +8,7 @@
   width: 100vw;
   height: 100%;
   background-color: rgba($black,.9);
-  transform: translateY(calc(28px - 100% + 2em));
+  transform: translateY(calc(22px - 100% + 2em));
   transition: all ease-in-out 250ms;
   overflow: hidden;
   .nav-list{
@@ -32,19 +32,20 @@
   }
   .nav-btn{
     transition: all ease-in-out 500ms;
-    padding: .8em 1em;
+    padding: .15em 1em;
     svg{
-      height: 28px;
-      width: 40px;
+      height: 35px;
+      width: 35px;
     }
   }
 }
 
 .nav_open{
-  //justify-content: space-around;
+  .nav-list{
+    padding-top: 2.5em;
+  }
   transform: translateY(0);
   .nav-btn{
-    //padding: 1em;
     margin: 0 calc(50vw - 40px);
   }
 }
