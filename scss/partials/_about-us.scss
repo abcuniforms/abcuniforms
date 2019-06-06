@@ -1,5 +1,6 @@
 .sec-aboutus{
   text-align: center;
+  //background-color: $white;
   h1{
     @include sans-serif($fs:2.8rem,$ls:.8rem);
     margin: .9em auto .7em;
