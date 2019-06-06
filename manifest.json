@@ -9,16 +9,6 @@
   "start_url": ".",
   "icons": [
     {
-      "src": "img/icons/Icon-36.png",
-      "sizes": "36x36",
-      "type": "image/png"
-    },
-    {
-      "src": "img/icons/Icon-48.png",
-      "sizes": "48x48",
-      "type": "image/png"
-    },
-    {
       "src": "img/icons/Icon-72.png",
       "sizes": "72x72",
       "type": "image/png"
