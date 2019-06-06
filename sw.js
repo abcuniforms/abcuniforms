@@ -2,7 +2,6 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.2.0/workbox
 
 const staticAssests = [
   './',
-  './manifest.json',
   './css/main.css',
   './js/vendor/aos.js',
   './js/vendor/TweenMax.min.js',
