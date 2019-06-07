@@ -43,3 +43,5 @@ document.querySelector('.sec-contactus').setAttributes({
   "data-aos-anchor":".sec-findus h1",
   "data-aos-anchor-placement":"top-top",
 })
+
+AOS.init();

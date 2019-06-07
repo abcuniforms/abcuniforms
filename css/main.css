@@ -1072,7 +1072,7 @@ template {
 
 .sec-logo .logo-bg {
   background-color: #433c35;
-  background-image: url(/img/logo/logobg.jpg);
+  background-image: url(../img/logo/logobg.min.jpg);
   background-size: cover;
   background-blend-mode: multiply;
   width: 100vw;

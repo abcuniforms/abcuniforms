@@ -59,14 +59,6 @@ function getFormData() {
   return data;
 }
 
-function validateHuman(honeypot) {
-  if (honeypot) {  //if hidden form filled up
-    console.log("Robot Detected!");
-    return true;
-  } else {
-    console.log("Welcome Human!");
-  }
-}
 
 // get all data in form and return object
 function handleFormSubmit(event) {  // handles form submit withtout any jquery
